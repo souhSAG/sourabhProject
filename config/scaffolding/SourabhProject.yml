@@ -7,6 +7,9 @@ packages:
   gitUrl: https://github.com/souhSAG/SourabhProject
   gitUsername: souhSAG
   gitBranch: main
+- name: WmJDBCAdapter
+  wpmServer: https://packages.softwareag.com
+  wpmRegistry: softwareag
 services:
 - serviceName: project.sourabh.integrations:helloworld
   packages:
@@ -16,3 +19,54 @@ services:
   packages:
   - name: WmPublic
     version: 11.0.0.0.804
+- serviceName: project.sourabh.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:SQLConneciton1
+  packages:
+  - name: SourabhProject
+    version: "1.0"
+configurationVariables:
+  ? artConnection.SourabhProject.project.sourabh.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.SQLConneciton1.connectionSettings.dbType
+  : MSSQL
+  ? artConnection.SourabhProject.project.sourabh.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.SQLConneciton1.connectionManagerSettings.poolable
+  : "false"
+  ? artConnection.SourabhProject.project.sourabh.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.SQLConneciton1.connectionEnabled
+  : "false"
+  ? artConnection.SourabhProject.project.sourabh.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.SQLConneciton1.connectionSettings.databaseName
+  : SourabhDB
+  ? artConnection.SourabhProject.project.sourabh.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.SQLConneciton1.connectionSettings.transactionType
+  : NO_TRANSACTION
+  ? artConnection.SourabhProject.project.sourabh.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.SQLConneciton1.connectionSettings.password
+  : "{AES}eN5lGgMFPtCb7s2ijXJusrR267tU1AAmRwEi1dNDsxg="
+  ? artConnection.SourabhProject.project.sourabh.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.SQLConneciton1.connectionManagerSettings.startupRetryCount
+  : "0"
+  ? artConnection.SourabhProject.project.sourabh.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.SQLConneciton1.connectionManagerSettings.expireTimeout
+  : "1000"
+  ? artConnection.SourabhProject.project.sourabh.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.SQLConneciton1.connectionManagerSettings.minimumPoolSize
+  : "0"
+  ? artConnection.SourabhProject.project.sourabh.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.SQLConneciton1.connectionSettings.datasourceClass
+  : com.wm.dd.jdbcx.sqlserver.SQLServerDataSource
+  ? artConnection.SourabhProject.project.sourabh.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.SQLConneciton1.connectionManagerSettings.heartBeatInterval
+  : "0"
+  ? artConnection.SourabhProject.project.sourabh.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.SQLConneciton1.connectionSettings.user
+  : sourabh
+  ? artConnection.SourabhProject.project.sourabh.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.SQLConneciton1.connectionSettings.portNumber
+  : "1433"
+  ? artConnection.SourabhProject.project.sourabh.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.SQLConneciton1.connectionSettings.trustStore
+  : ""
+  ? artConnection.SourabhProject.project.sourabh.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.SQLConneciton1.connectionSettings.networkProtocol
+  : ""
+  ? artConnection.SourabhProject.project.sourabh.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.SQLConneciton1.connectionSettings.driverType
+  : Progress® DataDirect®
+  ? artConnection.SourabhProject.project.sourabh.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.SQLConneciton1.connectionManagerSettings.poolIncrementSize
+  : "1"
+  ? artConnection.SourabhProject.project.sourabh.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.SQLConneciton1.connectionManagerSettings.startupBackoffSecs
+  : "10"
+  ? artConnection.SourabhProject.project.sourabh.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.SQLConneciton1.connectionManagerSettings.blockingTimeout
+  : "1000"
+  ? artConnection.SourabhProject.project.sourabh.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.SQLConneciton1.connectionManagerSettings.maximumPoolSize
+  : "10"
+  ? artConnection.SourabhProject.project.sourabh.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.SQLConneciton1.connectionSettings.serverName
+  : sourabhdbserver.database.windows.net
+  ? artConnection.SourabhProject.project.sourabh.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.SQLConneciton1.connectionSettings.otherProperties
+  : loginTimeout=60;
+  ? artConnection.SourabhProject.project.sourabh.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.SQLConneciton1.connectionSettings.keyStore
+  : ""
