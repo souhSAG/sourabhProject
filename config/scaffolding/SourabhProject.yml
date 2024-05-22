@@ -1,0 +1,9 @@
+version: "1.0"
+info:
+  model: int-scaffold
+packages:
+- name: SourabhProject
+  gitServerName: sourabhProject
+  gitUrl: https://github.com/souhSAG/SourabhProject
+  gitUsername: souhSAG
+  gitBranch: main
