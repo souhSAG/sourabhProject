@@ -141,7 +141,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">sourabh.harkawat</value>
-    <value name="lastModifiedDate">1716441578517</value>
+    <value name="lastModifiedDate">1716441634270</value>
     <value name="displayName">GetCustomerDetails</value>
     <value name="description"></value>
     <array name="appList" type="record" depth="1">

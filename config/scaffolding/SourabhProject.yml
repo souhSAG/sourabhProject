@@ -48,6 +48,12 @@ services:
     version: "1.0"
   - name: Calulate
     version: "1.0"
+- serviceName: project.sourabh.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:Get
+  packages:
+  - name: SourabhProject
+    version: "1.0"
+  - name: Calulate
+    version: "1.0"
 configurationVariables:
   ? artConnection.SourabhProject.project.sourabh.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.SQLConneciton1.connectionSettings.dbType
   : MSSQL
