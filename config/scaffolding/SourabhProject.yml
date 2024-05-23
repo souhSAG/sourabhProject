@@ -42,6 +42,12 @@ services:
   packages:
   - name: WmPublic
     version: 11.0.0.0.804
+- serviceName: project.sourabh.integrations:GetCustomerDetails
+  packages:
+  - name: SourabhProject
+    version: "1.0"
+  - name: Calulate
+    version: "1.0"
 configurationVariables:
   ? artConnection.SourabhProject.project.sourabh.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.SQLConneciton1.connectionSettings.dbType
   : MSSQL
