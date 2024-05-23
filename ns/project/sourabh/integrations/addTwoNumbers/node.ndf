@@ -97,7 +97,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">sourabh.harkawat</value>
-    <value name="lastModifiedDate">1716437403264</value>
+    <value name="lastModifiedDate">1716437430621</value>
     <value name="displayName">addTwoNumbers</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -140,6 +140,7 @@
         <number name="lineNumberForDebug" type="Long">2</number>
         <null name="mapSet"/>
         <null name="outputMapSet"/>
+        <Boolean name="xmlMapsetSupported">true</Boolean>
       </record>
     </record>
   </record>
