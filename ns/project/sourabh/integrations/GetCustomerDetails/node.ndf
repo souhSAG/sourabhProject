@@ -141,7 +141,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">sourabh.harkawat</value>
-    <value name="lastModifiedDate">1716441634270</value>
+    <value name="lastModifiedDate">1722409616700</value>
     <value name="displayName">GetCustomerDetails</value>
     <value name="description"></value>
     <array name="appList" type="record" depth="1">
@@ -158,9 +158,9 @@
         <value name="providerName">WmJDBCAdapter</value>
         <record name="operation" javaclass="com.wm.util.Values">
           <value name="operationName">Get</value>
+          <null name="description"/>
           <value name="isCustom">true</value>
           <value name="operationType">actions</value>
-          <value name="connectionType">sagcloud</value>
           <value name="projectName">project.sourabh</value>
         </record>
         <value name="appType">predefined</value>
@@ -175,33 +175,29 @@
         <value name="packageName">WmJDBCAdapter</value>
         <value name="type">Adapters</value>
         <value name="version">1.0</value>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <array name="map" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <array name="mapDelete" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <array name="transformer" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <array name="lookupTransformer" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <array name="mapSet" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <array name="inputMap" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <array name="outputMap" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
         <record name="connection" javaclass="com.wm.util.Values">
           <value name="connectionName">SQLConneciton1</value>
-          <value name="connectionType">sagcloud</value>
+          <value name="connectionType">webMethods Adapter for JDBC ExtendedConnection</value>
           <null name="description"/>
         </record>
         <value name="connectionNSName">project.sourabh.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:SQLConneciton1</value>
-        <value name="connectionType">sagcloud</value>
+        <value name="connectionType">webMethods Adapter for JDBC ExtendedConnection</value>
         <Boolean name="accountReferenceResolved">true</Boolean>
-        <Boolean name="serviceReferenceResolved">true</Boolean>
-        <array name="map" type="object" depth="1">
-        </array>
-        <array name="mapDelete" type="object" depth="1">
-        </array>
-        <array name="transformer" type="object" depth="1">
-        </array>
-        <array name="lookupTransformer" type="object" depth="1">
-        </array>
-        <null name="mapSet"/>
-        <array name="inputMap" type="object" depth="1">
-        </array>
-        <array name="outputMap" type="object" depth="1">
-        </array>
-        <number name="ui_step_index" type="Long">1</number>
-        <value name="nodePathNew">0</value>
-        <number name="nodeIndex" type="Long">0</number>
-        <number name="lineNumberForDebug" type="Long">1</number>
-        <null name="outputMapSet"/>
       </record>
     </record>
   </record>
