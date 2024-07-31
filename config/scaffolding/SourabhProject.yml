@@ -11,6 +11,7 @@ packages:
   wpmServer: https://packages.softwareag.com
   wpmRegistry: softwareag
 - name: Calulate
+  version: "1.0"
   gitServerName: sourabhProject
   gitUrl: https://github.com/souhSAG
   gitUsername: souhSAG
@@ -72,7 +73,7 @@ configurationVariables:
   ? artConnection.SourabhProject.project.sourabh.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.SQLConneciton1.connectionSettings.transactionType
   : NO_TRANSACTION
   ? artConnection.SourabhProject.project.sourabh.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.SQLConneciton1.connectionSettings.password
-  : "{AES}eN5lGgMFPtCb7s2ijXJusrR267tU1AAmRwEi1dNDsxg="
+  : "{AES}aYrXC43dTWsDUHRWG5mhTA=="
   ? artConnection.SourabhProject.project.sourabh.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.SQLConneciton1.connectionManagerSettings.startupRetryCount
   : "0"
   ? artConnection.SourabhProject.project.sourabh.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.SQLConneciton1.connectionManagerSettings.poolIncrementSize
