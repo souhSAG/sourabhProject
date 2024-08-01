@@ -141,7 +141,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">sourabh.harkawat</value>
-    <value name="lastModifiedDate">1722409616700</value>
+    <value name="lastModifiedDate">1722514626350</value>
     <value name="displayName">GetCustomerDetails</value>
     <value name="description"></value>
     <array name="appList" type="record" depth="1">
@@ -198,6 +198,7 @@
         <value name="connectionNSName">project.sourabh.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:SQLConneciton1</value>
         <value name="connectionType">webMethods Adapter for JDBC ExtendedConnection</value>
         <Boolean name="accountReferenceResolved">true</Boolean>
+        <value name="nodePathForDebug">0</value>
       </record>
     </record>
   </record>
